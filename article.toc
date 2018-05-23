@@ -1,6 +1,8 @@
 \select@language {russian}
-\contentsline {section}{\numberline {}Задание на практику}{2}{section.1}
-\contentsline {section}{\numberline {}Введение}{3}{section.2}
-\contentsline {section}{\numberline {}1 Теоретическая часть}{4}{section.3}
-\contentsline {section}{\numberline {}2 Основная часть}{5}{section.4}
-\contentsline {section}{\numberline {}Заключение}{6}{section.5}
+\contentsline {section}{\numberline {}Задание на практику}{3}{section.1}
+\contentsline {section}{\numberline {}Введение}{4}{section.2}
+\contentsline {section}{\numberline {}1 Теоретическая часть}{5}{section.3}
+\contentsline {section}{\numberline {}2 Реализация програмнного решения}{6}{section.4}
+\contentsline {section}{\numberline {}3 Пример работы реализации}{8}{section.5}
+\contentsline {section}{\numberline {}Заключение}{9}{section.6}
+\contentsline {section}{\numberline {}Литература}{10}{section.7}
