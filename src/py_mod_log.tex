@@ -1,0 +1,29 @@
+\stepcounter{mysection}\section{\arabic{mysection} Пример работы реализации}
+
+	Данный пример иллюстрирует работу группы лифтов, где их количество равно 2, в здании с 30 этажами.
+		В ходе работы системы появится люди в случайные моменты времени на случайных этажах этажах,
+		и у каждого человека целью является добратьна на другой этаж.
+
+	Изначально первая кабина находится на первом этаже $e_0$, а вторя на втором $e_1$.
+		Ниже приведён лог показывающий работу системы:
+\begin{lstlisting}[basicstyle=\footnotesize]
+19 May 2018 16:00:58 [51:null] Session end
+23 May 2018 21:41:15 [23:null] Start session
+23 May 2018 21:41:15 [23:0] Man 0 appears on floor '0' with target '24'
+23 May 2018 21:41:15 [23:0] Man 0 is moving
+23 May 2018 21:41:15 [23:12] Man 1 appears on floor '14' with target '5'
+23 May 2018 21:41:15 [23:12] Man 1 is moving
+23 May 2018 21:41:15 [23:24] Man 0 has reached by Cab 0
+23 May 2018 21:41:15 [23:24] Man 2 appears on floor '2' with target '10'
+23 May 2018 21:41:15 [23:24] Man 2 is moving
+23 May 2018 21:41:15 [23:33] Man 3 appears on floor '3' with target '1'
+23 May 2018 21:41:15 [23:34] Man 2 has reached by Cab 0
+23 May 2018 21:41:15 [23:34] Man 3 is moving
+23 May 2018 21:41:15 [23:35] Man 1 has reached by Cab 1
+23 May 2018 21:41:15 [23:39] Man 3 has reached by Cab 0
+23 May 2018 21:41:15 [23:null] Session end
+9 May 2018 16:00:58 [51:null] Session end
+\end{lstlisting}
+
+	Изучив выше изложенный журнал, можно увидеть, что завремя симуляции появилось 4 человека,
+		каждый человек доставлен.
